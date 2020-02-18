@@ -2,7 +2,7 @@
 
 Brief Intro:
 
-This is a React-based google books search app. The users can search, save the books that you like, and also can review the books or purchase later.
+This is a React-based google book search app. The users can search, save the books that you like, and also can review the books or purchase later.
 
 The main technologies used:
 
