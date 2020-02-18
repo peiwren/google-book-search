@@ -1,0 +1,36 @@
+li a {
+  color: rgb(7, 7, 32);
+  background-color: rgb(175, 209, 230);
+  padding: 3% 39%;
+}
+.navbar {
+  padding: 0.1rem 1rem;
+}
+
+a:hover {
+  background-color: rgb(219, 128, 101);
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  color: rgb(23, 144, 201);
+  padding-top: 8%;
+  font-size: 2.8em;
+  font-weight: 500;
+  margin-bottom: 10%;
+}
+li {
+  margin-right: 1%;
+}
+.one,
+.two {
+  width: 31.3%;
+}
+.two {
+  margin-left: 4.6%;
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
