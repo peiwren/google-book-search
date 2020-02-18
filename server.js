@@ -22,14 +22,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-<<<<<<< HEAD
-mongoose.connect(
-  process.env.MONGODB_URI ||
-    "mongodb://user:nextfav123@ds053196.mlab.com:53196/heroku_vf1k26b7"
-);
-=======
-mongoose.connect(process.env.MONGODB_URI || "mongodb://user:nextfav123<dbpassword>@ds053196.mlab.com:53196/heroku_vf1k26b7");
->>>>>>> f7c48808820c0ba42804c4a05899072c5ba406ef
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user:nextfav123<dbpassword>@ds053196.mlab.com:53196/heroku_vf1k26b7", {
+  useNewUrlParser: true
+});
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
