@@ -16,4 +16,3 @@ Google Books API endpoint:
 
 
 
-
