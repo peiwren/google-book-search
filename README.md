@@ -13,4 +13,3 @@ The main technologies used:
 
 Google Books API endpoint:
 "https://www.googleapis.com/books/v1/volumes?q="
-
