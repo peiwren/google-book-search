@@ -1,15 +1,14 @@
-# Google Book Search App
 
-Brief Intro:
+### `Google Book Search App`
 
 This is a React-based google book search app. The users can search, save the books they like, and also can review the books or purchase later.
 
-The main technologies used:
+### `The main technologies used`
 
-1. React
-2. Express
-3. Mongo
-4. Node
+React
+Express
+Mongo
+Node
 
-Google Books API endpoint:
+Google Books API Search Endpoint:
 "https://www.googleapis.com/books/v1/volumes?q="
