@@ -5,10 +5,7 @@ This is a React-based google book search app. The users can search, save the boo
 
 ### `The main technologies used`
 
-React
-Express
-Mongo
-Node
+React, Express, Mongo, Node
 
 Google Books API Search Endpoint:
 "https://www.googleapis.com/books/v1/volumes?q="
